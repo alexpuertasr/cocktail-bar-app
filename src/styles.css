@@ -1,0 +1,40 @@
+#root {
+  display: flex;
+  flex-flow: column nowrap;
+  height: 100vh;
+  line-height: 1.2;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Roboto", "Segoe UI", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 14px;
+  color: #262626;
+  font-weight: normal;
+  background-color: #ffffff;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
